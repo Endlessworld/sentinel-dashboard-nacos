@@ -4,7 +4,7 @@
 ### 实现了sentinel规则 在后台控制面版与nacos之间的双向同步
 #### 1、控制面板新增、编辑、删除规则时 自动同步到nacos进行持久化
 #### 2、nacos新增、编辑、删除规则时 自动同步到项目和控制面板
-###nacos配置说明
+### nacos配置说明
 > application.properties
 ```
 # nacos服务地址
@@ -15,8 +15,8 @@ spring.cloud.sentinel.datasource.nacos.groupId=DEFAULT_GROUP
 spring.cloud.sentinel.datasource.nacos.namespace=public
 ```
 
-###项目接入配置
-``` 
+### 项目接入配置
+```
 spring:
   application:
     name: tmp-service
